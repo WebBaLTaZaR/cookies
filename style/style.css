@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  background: none;
+  border: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.conteiner {
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.limit__content {
+  max-width: 393px;
+  margin: 0 auto;
+}
+
+.caramelCookiesWrap {
+  background-image: url("../img/cookieBoxBacgroundMobile.png");
+  background-size: cover;
+  color: #ffffff;
+  height: 852px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.caramelCookiesWrap .telephone {
+  margin: 41px 0 0 75px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  display: none;
+}
+.caramelCookiesWrap .mainText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 90px;
+}
+.caramelCookiesWrap .mainText h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+}
+.caramelCookiesWrap .mainText .secondMain {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  padding: 12px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #de7b11 0%, #ffa339 100%);
+}
+.caramelCookiesWrap .mainText .mainDescription {
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+.caramelCookiesWrap .orderButton {
+  color: #ffffff;
+  background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
+  padding: 12px 113px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+
+.discountWrap {
+  position: relative;
+}
+
+.discountSurprise {
+  position: absolute;
+  top: -51px;
+  left: 27px;
+  z-index: 1;
+  background: #de7b11;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.discountText {
+  position: absolute;
+  top: -52px;
+  left: 62px;
+  z-index: 0;
+  align-items: center;
+  padding: 12px 28px;
+  width: 65%;
+  background: linear-gradient(90deg, #3a3a3a 0%, #5b5b5b 100%);
+  border-radius: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+}
+.discountText span {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  color: #fb9e34;
+}
+
+.discountPrice {
+  z-index: 1;
+  position: absolute;
+  top: -97px;
+  left: 214px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  background: #de7b11;
+  border-radius: 30px;
+  padding: 15px 18px;
+}
