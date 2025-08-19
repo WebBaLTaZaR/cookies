@@ -3,13 +3,11 @@
 .conteiner {
   min-height: 100vh;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 .limit__content {
-  max-width: 393px;
+  // max-width: 1000px;
   margin: 0 auto;
 }
+
 @import "caramelCookies.scss";
 @import "discount.scss";

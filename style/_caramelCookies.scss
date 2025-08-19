@@ -4,50 +4,93 @@
   color: #ffffff;
   height: 852px;
   font-family: "Inter", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  .telephone {
-    margin: 41px 0 0 75px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 100%;
-    display: none;
-  }
-  .mainText {
+  .caramelCookiesLimit {
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    h1 {
-      font-weight: 500;
-      font-size: 32px;
+    justify-content: space-between;
+    height: 100%;
+    .telephone {
+      margin: 41px 0 0 75px;
+      font-weight: 400;
+      font-size: 30px;
       line-height: 100%;
+      display: none;
     }
-    .secondMain {
+    .mainTextWrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      h1 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 100%;
+      }
+      .secondMain {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 100%;
+        padding: 12px;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #de7b11 0%, #ffa339 100%);
+      }
+      .mainDescription {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+      }
+      margin-top: 90px;
+    }
+    .orderButton {
+      margin: 0 auto 12px;
+      color: #ffffff;
+      background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
+      padding: 12px 113px;
+      border-radius: 30px;
       font-weight: 500;
       font-size: 28px;
       line-height: 100%;
-      padding: 12px;
-      border-radius: 30px;
-      background: linear-gradient(90deg, #de7b11 0%, #ffa339 100%);
     }
-    .mainDescription {
-      padding-top: 15px;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 100%;
+    .contactsWrap {
+      display: none;
+      .iconWhatsapp {
+        background-color: #fff;
+        border-radius: 30px;
+      }
+      .iconTelephone {
+        background-color: #fff;
+        border-radius: 30px;
+      }
     }
-    margin-top: 90px;
   }
-  .orderButton {
-    color: #ffffff;
-    background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
-    padding: 12px 113px;
-    border-radius: 30px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 100%;
-	margin-bottom: 12px;
+}
+@media screen and (min-width: 1140px) {
+  .caramelCookiesWrap {
+    background-image: url("../img/cookieBoxBacgroundDesctop.png");
+    .caramelCookiesLimit {
+      .telephone {
+        display: block;
+      }
+
+      .mainTextWrap {
+        h1 {
+          font-size: 64px;
+        }
+        .secondMain{
+          font-size: 64px;
+        }
+        .mainDescription{
+          font-size: 40px;
+        }
+        .contactsWrap {
+          display: flex;
+        }
+      }
+      .contactsWrap{
+        display: flex;
+      }
+    }
   }
 }

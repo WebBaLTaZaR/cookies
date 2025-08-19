@@ -90,13 +90,9 @@ h6 {
 .conteiner {
   min-height: 100vh;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .limit__content {
-  max-width: 393px;
   margin: 0 auto;
 }
 
@@ -106,30 +102,34 @@ h6 {
   color: #ffffff;
   height: 852px;
   font-family: "Inter", sans-serif;
+}
+.caramelCookiesWrap .caramelCookiesLimit {
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
-.caramelCookiesWrap .telephone {
+.caramelCookiesWrap .caramelCookiesLimit .telephone {
   margin: 41px 0 0 75px;
   font-weight: 400;
   font-size: 30px;
   line-height: 100%;
   display: none;
 }
-.caramelCookiesWrap .mainText {
+.caramelCookiesWrap .caramelCookiesLimit .mainTextWrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin-top: 90px;
 }
-.caramelCookiesWrap .mainText h1 {
+.caramelCookiesWrap .caramelCookiesLimit .mainTextWrap h1 {
   font-weight: 500;
   font-size: 32px;
   line-height: 100%;
 }
-.caramelCookiesWrap .mainText .secondMain {
+.caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .secondMain {
   font-weight: 500;
   font-size: 28px;
   line-height: 100%;
@@ -137,13 +137,14 @@ h6 {
   border-radius: 30px;
   background: linear-gradient(90deg, #de7b11 0%, #ffa339 100%);
 }
-.caramelCookiesWrap .mainText .mainDescription {
+.caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .mainDescription {
   padding-top: 15px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
 }
-.caramelCookiesWrap .orderButton {
+.caramelCookiesWrap .caramelCookiesLimit .orderButton {
+  margin: 0 auto 12px;
   color: #ffffff;
   background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
   padding: 12px 113px;
@@ -151,9 +152,42 @@ h6 {
   font-weight: 500;
   font-size: 28px;
   line-height: 100%;
-  margin-bottom: 12px;
+}
+.caramelCookiesWrap .caramelCookiesLimit .contactsWrap {
+  display: none;
+}
+.caramelCookiesWrap .caramelCookiesLimit .contactsWrap .iconWhatsapp {
+  background-color: #fff;
+  border-radius: 30px;
+}
+.caramelCookiesWrap .caramelCookiesLimit .contactsWrap .iconTelephone {
+  background-color: #fff;
+  border-radius: 30px;
 }
 
+@media screen and (min-width: 1140px) {
+  .caramelCookiesWrap {
+    background-image: url("../img/cookieBoxBacgroundDesctop.png");
+  }
+  .caramelCookiesWrap .caramelCookiesLimit .telephone {
+    display: block;
+  }
+  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap h1 {
+    font-size: 64px;
+  }
+  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .secondMain {
+    font-size: 64px;
+  }
+  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .mainDescription {
+    font-size: 40px;
+  }
+  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .contactsWrap {
+    display: flex;
+  }
+  .caramelCookiesWrap .caramelCookiesLimit .contactsWrap {
+    display: flex;
+  }
+}
 .discountWrap {
   position: relative;
 }
