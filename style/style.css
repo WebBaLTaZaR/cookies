@@ -90,6 +90,7 @@ h6 {
 .conteiner {
   min-height: 100vh;
   margin: 0 auto;
+  font-family: "Inter", sans-serif;
 }
 
 .limit__content {
@@ -97,14 +98,15 @@ h6 {
 }
 
 .caramelCookiesWrap {
+  width: 100%;
+  position: relative;
   background-image: url("../img/cookieBoxBacgroundMobile.png");
   background-size: cover;
   color: #ffffff;
   height: 852px;
-  font-family: "Inter", sans-serif;
 }
 .caramelCookiesWrap .caramelCookiesLimit {
-  max-width: 1000px;
+  max-width: 1072px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -153,39 +155,62 @@ h6 {
   font-size: 28px;
   line-height: 100%;
 }
-.caramelCookiesWrap .caramelCookiesLimit .contactsWrap {
+.caramelCookiesWrap .contactsWrap {
   display: none;
-}
-.caramelCookiesWrap .caramelCookiesLimit .contactsWrap .iconWhatsapp {
-  background-color: #fff;
-  border-radius: 30px;
-}
-.caramelCookiesWrap .caramelCookiesLimit .contactsWrap .iconTelephone {
-  background-color: #fff;
-  border-radius: 30px;
 }
 
 @media screen and (min-width: 1140px) {
   .caramelCookiesWrap {
-    background-image: url("../img/cookieBoxBacgroundDesctop.png");
+    min-height: 1072px;
+    background-image: url("../img/cookieBoxBacgroundDesctopBlur.png");
+  }
+  .caramelCookiesWrap .caramelCookiesLimit {
+    justify-content: space-around;
   }
   .caramelCookiesWrap .caramelCookiesLimit .telephone {
     display: block;
+  }
+  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap {
+    margin-top: 0;
+    padding-left: 75px;
+    align-items: start;
   }
   .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap h1 {
     font-size: 64px;
   }
   .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .secondMain {
+    margin-left: -26px;
+    padding-top: 5px;
     font-size: 64px;
+    border-radius: 50px;
+    padding: 5px 25px 10px;
   }
   .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .mainDescription {
+    padding-top: 28px;
     font-size: 40px;
   }
-  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .contactsWrap {
-    display: flex;
+  .caramelCookiesWrap .caramelCookiesLimit .orderButton {
+    padding: 18px 50px;
+    font-size: 34px;
+    border-radius: 50px;
+    align-self: start;
   }
-  .caramelCookiesWrap .caramelCookiesLimit .contactsWrap {
+  .caramelCookiesWrap .contactsWrap {
     display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 950px;
+    left: 1567px;
+  }
+  .caramelCookiesWrap .contactsWrap .iconWhatsapp {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 17px;
+  }
+  .caramelCookiesWrap .contactsWrap .iconTelephone {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 17px;
   }
 }
 .discountWrap {
@@ -212,13 +237,11 @@ h6 {
   width: 65%;
   background: linear-gradient(90deg, #3a3a3a 0%, #5b5b5b 100%);
   border-radius: 40px;
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 110%;
 }
 .discountText span {
-  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 110%;
@@ -230,11 +253,34 @@ h6 {
   position: absolute;
   top: -97px;
   left: 214px;
-  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 100%;
   background: #de7b11;
   border-radius: 30px;
   padding: 15px 18px;
+}
+
+@media screen and (min-width: 1140px) {
+  .discountSurprise {
+    padding: 14px;
+    top: -47px;
+    left: 52px;
+    border-radius: 50px;
+  }
+  .discountText {
+    padding: 21px 28px 21px 69px;
+    font-size: 34px;
+  }
+  .discountText span {
+    font-size: 34px;
+  }
+  .discountPrice {
+    font-size: 48px;
+    position: absolute;
+    top: 31px;
+    left: 292px;
+    border-radius: 0;
+    background: none;
+  }
 }
