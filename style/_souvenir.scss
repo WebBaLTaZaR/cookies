@@ -1,0 +1,71 @@
+.souvenirMainWrap {
+  margin: 40px 20px 0;
+}
+.souvenirMainText {
+  color: #d26d00;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.souvenirSecondText {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100%;
+  color: #6d6460;
+}
+.souvenirDescriptionWrap {
+  margin-top: 15px;
+}
+.souvenirDescriptiontext {
+  margin: 0 20px;
+  color: #464646;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+}
+.souvenirOzonWrap {
+  background-image: url("../img/souvenirMobile.png");
+  background-size: cover;
+  min-height: 495px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ozonLink {
+  background: linear-gradient(183.04deg, #ffb664 -4.26%, #ca6900 127.44%);
+  border-radius: 60px;
+  padding: 34px 14px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 156px;
+}
+@media screen and (min-width: 1140px) {
+  .souvenirMainWrap {
+    margin: 88px 100px 0;
+  }
+  .souvenirMainText {
+    font-size: 64px;
+    margin-bottom: 10px;
+  }
+  .souvenirSecondText {
+    font-size: 40px;
+  }
+  .souvenirDescriptionWrap {
+    background-image: url("../img/souvenirDesctop.png");
+    background-size: cover;
+    min-height: 903px;
+    margin-top: 58px;
+  }
+  .souvenirDescriptiontext {
+    font-size: 30px;
+    width: 56%;
+    margin-left: 100px;
+  }
+  .souvenirOzonWrap {
+    display: none;
+  }
+}
