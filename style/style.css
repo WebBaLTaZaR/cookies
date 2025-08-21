@@ -113,7 +113,7 @@ h6 {
   height: 100%;
 }
 .caramelCookiesWrap .caramelCookiesLimit .telephone {
-  margin: 41px 0 0 75px;
+  margin: -100px 0 0 75px;
   font-weight: 400;
   font-size: 30px;
   line-height: 100%;
@@ -143,16 +143,6 @@ h6 {
   padding-top: 15px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
-}
-.caramelCookiesWrap .caramelCookiesLimit .orderButton {
-  margin: 0 auto 12px;
-  color: #ffffff;
-  background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
-  padding: 12px 113px;
-  border-radius: 30px;
-  font-weight: 500;
-  font-size: 28px;
   line-height: 100%;
 }
 .caramelCookiesWrap .contactsWrap {
@@ -200,7 +190,7 @@ h6 {
     gap: 15px;
     position: absolute;
     top: 950px;
-    left: 1567px;
+    left: 2000px;
   }
   .caramelCookiesWrap .contactsWrap .iconWhatsapp {
     background-color: #fff;
@@ -216,8 +206,7 @@ h6 {
 .discountWrap {
   position: relative;
 }
-
-.discountSurprise {
+.discountWrap .discountSurprise {
   position: absolute;
   top: -51px;
   left: 27px;
@@ -226,8 +215,7 @@ h6 {
   border-radius: 30px;
   padding: 10px;
 }
-
-.discountText {
+.discountWrap .discountText {
   position: absolute;
   top: -52px;
   left: 62px;
@@ -241,14 +229,13 @@ h6 {
   font-size: 18px;
   line-height: 110%;
 }
-.discountText span {
+.discountWrap .discountText span {
   font-weight: 500;
   font-size: 18px;
   line-height: 110%;
   color: #fb9e34;
 }
-
-.discountPrice {
+.discountWrap .discountPrice {
   z-index: 1;
   position: absolute;
   top: -97px;
@@ -260,27 +247,40 @@ h6 {
   border-radius: 30px;
   padding: 15px 18px;
 }
+.discountWrap .orderButton {
+  margin: 292px 20px 12px;
+  color: #ffffff;
+  background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
+  padding: 12px 113px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+}
 
 @media screen and (min-width: 1140px) {
-  .discountSurprise {
+  .discountWrap .discountSurprise {
     padding: 14px;
     top: -47px;
     left: 52px;
     border-radius: 50px;
   }
-  .discountText {
+  .discountWrap .discountText {
     padding: 21px 28px 21px 69px;
     font-size: 34px;
   }
-  .discountText span {
+  .discountWrap .discountText span {
     font-size: 34px;
   }
-  .discountPrice {
+  .discountWrap .discountPrice {
     font-size: 48px;
     position: absolute;
     top: 31px;
     left: 292px;
     border-radius: 0;
     background: none;
+  }
+  .discountWrap .orderButton {
+    margin: 34px 0 0 53px;
   }
 }
