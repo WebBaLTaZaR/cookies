@@ -1,0 +1,81 @@
+.safeConteinerWrap {
+  margin-top: 40px;
+}
+.safeContMainText {
+  color: #d26d00;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  margin: auto 54px;
+}
+.safeContSecondText {
+  color: #6f3d07;
+  margin: 0 20px 38px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+.unionDiffOpenBoxWrap {
+  background-image: url("../img/Bacground3blockMobile.png");
+  background-size: cover;
+  min-height: 702px;
+}
+.diffConteinersWrap {
+  display: flex;
+  gap: 17px;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+.diffConteinersWrap > li img {
+  width: 90px;
+  height: 55px;
+}
+.diffConteinersWrap > li {
+  background: linear-gradient(181.35deg, #fbcca2 1.15%, #f3dac2 153.21%);
+  padding: 27px 8px;
+  border-radius: 60px;
+}
+.contItem1 {
+}
+.contItem2 {
+}
+.contItem3 {
+}
+.contItem4 {
+}
+.contItem5 {
+}
+.openBoxWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.openBoxTextLeft {
+  color: #d26d00;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: right;
+}
+.openBoxTextLeft span {
+  color: #6f3d07;
+}
+.openBoxItem{
+	margin-left: 15px;
+}
+.openBoxItem img {
+  width: 411px;
+  height: 303px;
+}
+.openBoxTextRight {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #6f3d07;
+}
+.openBoxTextRight span {
+  color: #d26d00;
+}
+.orderForOzon {
+}
