@@ -189,8 +189,8 @@ h6 {
     display: flex;
     gap: 15px;
     position: absolute;
-    top: 950px;
-    left: 1280px;
+    top: 88%;
+    left: 82%;
   }
   .caramelCookiesWrap .contactsWrap .iconWhatsapp {
     background-color: #fff;
@@ -371,15 +371,19 @@ h6 {
   font-weight: 600;
   font-size: 24px;
   line-height: 100%;
-  margin: auto 54px;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .safeContSecondText {
   color: #6f3d07;
-  margin: 0 20px 38px;
+  margin: 0 auto 38px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .unionDiffOpenBoxWrap {
@@ -410,9 +414,13 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .openBoxTextLeft {
+  position: absolute;
+  top: 0;
+  left: 5%;
   color: #d26d00;
   font-weight: 400;
   font-size: 18px;
@@ -424,16 +432,13 @@ h6 {
   color: #6f3d07;
 }
 
-.openBoxItem {
-  margin-left: 15px;
-}
-
 .openBoxItem img {
-  width: 411px;
-  height: 303px;
+  width: 400px;
+  height: 300px;
 }
 
 .openBoxTextRight {
+  margin-left: 190px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -441,5 +446,81 @@ h6 {
 }
 
 .openBoxTextRight span {
+  font-weight: 600;
   color: #d26d00;
+}
+
+.orderForOzon {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  color: #ffffff;
+  background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
+  padding: 12px 50px;
+  margin: 14px 20px 30px;
+  border-radius: 60px;
+}
+
+@media screen and (min-width: 1140px) {
+  .safeConteinerWrap {
+    margin-top: 45px;
+    background-image: url("../img/Bacground3blockDesctop.png");
+    min-height: 1309px;
+    background-size: cover;
+  }
+  .safeContMainText {
+    font-size: 64px;
+    padding-top: 173px;
+  }
+  .safeContSecondText {
+    font-size: 40px;
+  }
+  .unionDiffOpenBoxWrap {
+    background-image: none;
+  }
+  .diffConteinersWrap {
+    gap: 44px;
+  }
+  .diffConteinersWrap > li img {
+    width: auto;
+    height: auto;
+  }
+  .diffConteinersWrap > li {
+    background: linear-gradient(180deg, #fff3d4 0%, #ffdfc0 132.89%);
+    padding: 65px 25px;
+    border-radius: 130px;
+  }
+  .openBoxWrap {
+    flex-direction: row;
+  }
+  .openBoxTextLeft {
+    top: 21%;
+    left: 3%;
+    font-size: 40px;
+  }
+  .openBoxItem {
+    margin-left: 28%;
+  }
+  .openBoxItem img {
+    width: auto;
+    height: auto;
+  }
+  .openBoxTextRight {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    font-size: 36px;
+    margin-left: 0;
+  }
+  .openBoxTextRight span {
+    font-size: 48px;
+  }
+  .orderForOzon {
+    font-size: 34px;
+    padding: 18px 50px;
+    margin: 36px auto 46px;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+  }
 }
