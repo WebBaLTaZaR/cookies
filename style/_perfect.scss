@@ -1,0 +1,64 @@
+.perfectWrap {
+  min-height: 830px;
+  background-image: url("../img/ornament.png");
+  position: relative;
+}
+.perfectMainText {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #d26d00;
+  width: fit-content;
+  margin: 0 auto 5px;
+  padding-top: 40px;
+}
+.perfectSecondText {
+  color: #6f3d07;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.perfectFamilyWrap {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+.perfectFamily {
+  display: flex;
+  flex-direction: column;
+  gap: 115px;
+}
+.perfectFamily li {
+	z-index: 1;
+  width: fit-content;
+  border-radius: 60px;
+  padding: 19px 38px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 110%;
+  color: #854704;
+  background: linear-gradient(94.34deg, #ffd7ab 1.69%, #ffc17d 118.24%);
+}
+.perfectFamilyItem3 {
+  margin-top: 80px;
+}
+.connectLine {
+	position: absolute;
+	top: 21%;
+	left: 24%;
+	z-index: 0;
+	
+}
+.perfectSurpriseWrap {
+}
+.boobleHalykItem {
+}
+.perfectSurpriseItem {
+}
+.perfectCookies {
+}
