@@ -93,10 +93,6 @@ h6 {
   font-family: "Inter", sans-serif;
 }
 
-.limit__content {
-  margin: 0 auto;
-}
-
 .caramelCookiesWrap {
   width: 100%;
   position: relative;
@@ -149,7 +145,7 @@ h6 {
   display: none;
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .caramelCookiesWrap {
     min-height: 1072px;
     background-image: url("../img/cookieBoxBacgroundDesctopBlur.png");
@@ -258,7 +254,7 @@ h6 {
   line-height: 100%;
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .discountWrap .discountSurprise {
     padding: 14px;
     top: -47px;
@@ -336,7 +332,7 @@ h6 {
   margin-bottom: 252px;
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .souvenirMainWrap {
     margin: 88px 100px 0;
   }
@@ -461,7 +457,7 @@ h6 {
   border-radius: 60px;
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .safeConteinerWrap {
     margin-top: 45px;
     background-image: url("../img/Bacground3blockDesctop.png");
@@ -584,7 +580,64 @@ h6 {
 
 .connectLine {
   position: absolute;
-  top: 21%;
+  top: 19%;
   left: 24%;
   z-index: 0;
+}
+
+.perfectSurpriseWrap {
+  margin-top: 85px;
+  padding-bottom: 20px;
+}
+
+.boobleHalykItem {
+  z-index: 2;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  background: linear-gradient(183.04deg, #01aac4 -4.26%, #007f93 127.44%);
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 42px 10px;
+  border-radius: 60px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.perfectSurpriseItem {
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.perfectSurpriseItem img {
+  width: 369px;
+  height: auto;
+}
+
+.perfectCookies {
+  z-index: 2;
+  position: absolute;
+  top: 81%;
+  left: 52%;
+}
+
+.perfectCookies img {
+  width: 189px;
+  height: auto;
+}
+
+.bacgroundEllipse {
+  position: absolute;
+  top: 73%;
+  left: 0;
+  z-index: 0;
+}
+
+.bacgroundEllipse img {
+  width: 100%;
+  height: auto;
 }
