@@ -20,24 +20,27 @@
 .unionDiffOpenBoxWrap {
   background-image: url("../img/Bacground3blockMobile.png");
   background-size: cover;
-  min-height: 702px;
 }
 .diffConteinersWrap {
   display: flex;
   gap: 17px;
   flex-wrap: wrap;
-
   justify-content: center;
+}
+.diffConteinersWrap > li {
+  background: linear-gradient(181.35deg, #fbcca2 1.15%, #f3dac2 153.21%);
+  width: 108px;
+  height: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 .diffConteinersWrap > li img {
   width: 90px;
   height: 55px;
 }
-.diffConteinersWrap > li {
-  background: linear-gradient(181.35deg, #fbcca2 1.15%, #f3dac2 153.21%);
-  padding: 27px 8px;
-  border-radius: 60px;
-}
+
 .openBoxWrap {
   display: flex;
   flex-direction: column;
@@ -101,23 +104,25 @@
     background-image: none;
   }
   .diffConteinersWrap {
-    gap: 44px;
+    gap: 80px;
+  }
+  .diffConteinersWrap > li {
+    background: linear-gradient(180deg, #fff3d4 0%, #ffdfc0 132.89%);
+    padding: 65px 25px;
+    width: 268px;
+    height: 268px;
   }
   .diffConteinersWrap > li img {
     width: auto;
     height: auto;
   }
-  .diffConteinersWrap > li {
-    background: linear-gradient(180deg, #fff3d4 0%, #ffdfc0 132.89%);
-    padding: 65px 25px;
-    border-radius: 130px;
-  }
+
   .openBoxWrap {
     flex-direction: row;
   }
   .openBoxTextLeft {
     top: 21%;
-    left: 3%;
+    left: 9%;
     font-size: 40px;
   }
   .openBoxItem {
@@ -130,7 +135,7 @@
   .openBoxTextRight {
     position: absolute;
     top: 80%;
-    left: 65%;
+    left: 57%;
     font-size: 36px;
     margin-left: 0;
   }

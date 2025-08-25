@@ -40,12 +40,10 @@
   font-size: 18px;
 }
 .recipe {
-	background-image: url("../img/backgroundLastDesktop.png");
-	background-size: cover;
+  background-image: url("../img/bacgroundKcal.png");
+  background-size: cover;
 }
 .recipeMainText {
-
-
   margin-left: 20px;
   font-weight: 500;
   font-size: 22px;
@@ -62,8 +60,6 @@
   color: #d26d00;
 }
 .recipeDescriptionContinue {
-	padding: 0;
-margin: 0;
   margin-left: 20px;
   color: #464646;
   font-weight: 500;
@@ -74,17 +70,56 @@ margin: 0;
 .recipeDescriptionContinue span {
   color: #d26d00;
 }
+.plateWrap {
+  background-image: url("../img/backgroundLastMobile.png");
+  background-size: cover;
+  position: relative;
+}
 .plate {
+  padding-top: 50px;
 }
 .kcal {
+  position: absolute;
+  top: 20%;
+  left: 22%;
+
+  font-weight: 600;
+  font-size: 28px;
+  background: linear-gradient(183.04deg, #ffb664 -4.26%, #ca6900 127.44%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 104px;
+  height: 104px;
+  color: #ffe6cc;
+}
+.kcal span {
+  font-weight: 400;
+  font-size: 18px;
 }
 .OurContacts {
+  margin-left: 20px;
+  position: relative;
 }
 .OurContactText {
+  margin: 41px 0 21px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #d26d00;
 }
-.telephone {
+.telephoneBottom {
+  font-weight: 400;
+  font-size: 18px;
+  color: #6f3d07;
+  margin-bottom: 10px;
 }
 .messengers {
+  margin-top: 30px;
+  display: flex;
+  gap: 25px;
+  padding-bottom: 50px;
 }
 .insta {
 }
@@ -93,6 +128,14 @@ margin: 0;
 .watsapp {
 }
 .boobleAtOZON {
+  display: none;
 }
 .backgroundBox {
+  position: absolute;
+  top: 19%;
+  left: 46%;
+}
+.backgroundBox img {
+  width: 200px;
+  height: auto;
 }
