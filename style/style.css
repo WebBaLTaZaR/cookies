@@ -95,38 +95,41 @@ h6 {
 .caramelCookiesWrap {
   width: 100%;
   position: relative;
-  background-image: url("../img/cookieBoxBacgroundMobile.png");
+  background-image: url("../img/cookieBoxBacgroundMobile.webp");
   background-size: cover;
   color: #ffffff;
-  height: 852px;
+  min-height: 625px;
 }
-.caramelCookiesWrap .caramelCookiesLimit {
-  max-width: 1072px;
+
+.caramelCookiesLimit {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
 }
-.caramelCookiesWrap .caramelCookiesLimit .telephone {
+
+.telephone {
   margin: -100px 0 0 75px;
   font-weight: 400;
   font-size: 30px;
   line-height: 100%;
   display: none;
 }
-.caramelCookiesWrap .caramelCookiesLimit .mainTextWrap {
+
+.mainTextWrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 16px;
 }
-.caramelCookiesWrap .caramelCookiesLimit .mainTextWrap h1 {
+
+h1 {
   font-weight: 500;
   font-size: 32px;
   line-height: 100%;
 }
-.caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .secondMain {
+
+.secondMain {
   font-weight: 500;
   font-size: 28px;
   line-height: 100%;
@@ -134,86 +137,91 @@ h6 {
   border-radius: 30px;
   background: linear-gradient(90deg, #de7b11 0%, #ffa339 100%);
 }
-.caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .mainDescription {
+
+.mainDescription {
+  box-shadow: 0 0 0 0 black;
   padding-top: 15px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
 }
-.caramelCookiesWrap .contactsWrap {
+
+.contactsWrap {
   display: none;
 }
 
 @media screen and (min-width: 1200px) {
   .caramelCookiesWrap {
     min-height: 1072px;
-    background-image: url("../img/cookieBoxBacgroundDesctopBlur.png");
+    background-image: url("../img/cookieBoxBacgroundDesctopBlur.webp");
   }
-  .caramelCookiesWrap .caramelCookiesLimit {
+  .caramelCookiesLimit {
     justify-content: space-around;
   }
-  .caramelCookiesWrap .caramelCookiesLimit .telephone {
+  .telephone {
     display: block;
   }
-  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap {
+  .mainTextWrap {
     margin-top: 0;
     padding-left: 75px;
     align-items: start;
   }
-  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap h1 {
+  h1 {
     font-size: 64px;
   }
-  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .secondMain {
+  .secondMain {
     margin-left: -26px;
     padding-top: 5px;
     font-size: 64px;
     border-radius: 50px;
     padding: 5px 25px 10px;
   }
-  .caramelCookiesWrap .caramelCookiesLimit .mainTextWrap .mainDescription {
+  .mainDescription {
     padding-top: 28px;
     font-size: 40px;
   }
-  .caramelCookiesWrap .caramelCookiesLimit .orderButton {
+  .orderButton {
     padding: 18px 50px;
     font-size: 34px;
     border-radius: 50px;
     align-self: start;
   }
-  .caramelCookiesWrap .contactsWrap {
+  .iconWhatsapp {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 17px;
+  }
+  .iconTelephone {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 17px;
+  }
+  .contactsWrap {
     display: flex;
     gap: 15px;
     position: absolute;
     top: 88%;
     left: 82%;
   }
-  .caramelCookiesWrap .contactsWrap .iconWhatsapp {
-    background-color: #fff;
-    border-radius: 50px;
-    padding: 17px;
-  }
-  .caramelCookiesWrap .contactsWrap .iconTelephone {
-    background-color: #fff;
-    border-radius: 50px;
-    padding: 17px;
-  }
 }
 .discountWrap {
   position: relative;
 }
-.discountWrap .discountSurprise {
+
+.discountSurprise {
   position: absolute;
-  top: -51px;
-  left: 27px;
+  top: 27%;
+  left: 5%;
   z-index: 1;
   background: #de7b11;
   border-radius: 30px;
   padding: 10px;
 }
-.discountWrap .discountText {
+
+.discountText {
   position: absolute;
-  top: -52px;
-  left: 62px;
+  top: 26%;
+  left: 15%;
   z-index: 0;
   align-items: center;
   padding: 12px 28px;
@@ -224,17 +232,18 @@ h6 {
   font-size: 18px;
   line-height: 110%;
 }
-.discountWrap .discountText span {
+.discountText span {
   font-weight: 500;
   font-size: 18px;
   line-height: 110%;
   color: #fb9e34;
 }
-.discountWrap .discountPrice {
+
+.discountPrice {
   z-index: 1;
   position: absolute;
-  top: -97px;
-  left: 214px;
+  top: 13%;
+  left: 52%;
   font-weight: 500;
   font-size: 24px;
   line-height: 100%;
@@ -242,7 +251,8 @@ h6 {
   border-radius: 30px;
   padding: 15px 18px;
 }
-.discountWrap .orderButton {
+
+.orderButton {
   margin: 292px 20px 12px;
   color: #ffffff;
   background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
@@ -254,20 +264,20 @@ h6 {
 }
 
 @media screen and (min-width: 1200px) {
-  .discountWrap .discountSurprise {
+  .discountSurprise {
     padding: 14px;
     top: -47px;
     left: 52px;
     border-radius: 50px;
   }
-  .discountWrap .discountText {
+  .discountText {
     padding: 21px 28px 21px 69px;
     font-size: 34px;
   }
-  .discountWrap .discountText span {
+  .discountText span {
     font-size: 34px;
   }
-  .discountWrap .discountPrice {
+  .discountPrice {
     font-size: 48px;
     position: absolute;
     top: 31px;
@@ -275,7 +285,7 @@ h6 {
     border-radius: 0;
     background: none;
   }
-  .discountWrap .orderButton {
+  .orderButton {
     margin: 34px 0 0 53px;
   }
 }

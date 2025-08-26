@@ -1,84 +1,81 @@
 .discountWrap {
   position: relative;
-  .discountSurprise {
-    position: absolute;
-    top: -51px;
-    left: 27px;
-    z-index: 1;
-    background: #de7b11;
-    border-radius: 30px;
-    padding: 10px;
-  }
-  .discountText {
-    position: absolute;
-    top: -52px;
-    left: 62px;
-    z-index: 0;
-    align-items: center;
-    padding: 12px 28px;
-    width: 65%;
-    background: linear-gradient(90deg, #3a3a3a 0%, #5b5b5b 100%);
-    border-radius: 40px;
-
-    font-weight: 400;
+}
+.discountSurprise {
+  position: absolute;
+  top: 27%;
+  left: 5%;
+  z-index: 1;
+  background: #de7b11;
+  border-radius: 30px;
+  padding: 10px;
+}
+.discountText {
+  position: absolute;
+  top: 26%;
+  left: 15%;
+  z-index: 0;
+  align-items: center;
+  padding: 12px 28px;
+  width: 65%;
+  background: linear-gradient(90deg, #3a3a3a 0%, #5b5b5b 100%);
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  span {
+    font-weight: 500;
     font-size: 18px;
     line-height: 110%;
-    span {
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 110%;
-      color: #fb9e34;
-    }
+    color: #fb9e34;
   }
-  .discountPrice {
-    z-index: 1;
-    position: absolute;
-    top: -97px;
-    left: 214px;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 100%;
-    background: #de7b11;
-    border-radius: 30px;
-    padding: 15px 18px;
-  }
-  .orderButton {
-    margin: 292px 20px 12px;
-    color: #ffffff;
-    background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
-    padding: 12px 113px;
-    border-radius: 30px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 100%;
-  }
+}
+.discountPrice {
+  z-index: 1;
+  position: absolute;
+  top: 13%;
+  left: 52%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  background: #de7b11;
+  border-radius: 30px;
+  padding: 15px 18px;
+}
+.orderButton {
+  margin: 292px 20px 12px;
+  color: #ffffff;
+  background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
+  padding: 12px 113px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
 }
 
 @media screen and (min-width: 1200px) {
-  .discountWrap {
-    .discountSurprise {
-      padding: 14px;
-      top: -47px;
-      left: 52px;
-      border-radius: 50px;
-    }
-    .discountText {
-      padding: 21px 28px 21px 69px;
+  .discountSurprise {
+    padding: 14px;
+    top: -47px;
+    left: 52px;
+    border-radius: 50px;
+  }
+  .discountText {
+    padding: 21px 28px 21px 69px;
+    font-size: 34px;
+    span {
       font-size: 34px;
-      span {
-        font-size: 34px;
-      }
     }
-    .discountPrice {
-      font-size: 48px;
-      position: absolute;
-      top: 31px;
-      left: 292px;
-      border-radius: 0;
-      background: none;
-    }
-    .orderButton{
-      margin: 34px 0 0 53px ;
-    }
+  }
+  .discountPrice {
+    font-size: 48px;
+    position: absolute;
+    top: 31px;
+    left: 292px;
+    border-radius: 0;
+    background: none;
+  }
+  .orderButton {
+    margin: 34px 0 0 53px;
   }
 }
