@@ -18,7 +18,7 @@
   width: fit-content;
 }
 .unionDiffOpenBoxWrap {
-  background-image: url("../img/Bacground3blockMobile.png");
+  background-image: url("../img/Bacground3blockMobile.svg");
   background-size: cover;
 }
 .diffConteinersWrap {
@@ -89,7 +89,7 @@
 @media screen and (min-width: 1200px) {
   .safeConteinerWrap {
     margin-top: 45px;
-    background-image: url("../img/Bacground3blockDesctop.png");
+    background-image: url("../img/Bacground3blockDesctop.svg");
     min-height: 1309px;
     background-size: cover;
   }

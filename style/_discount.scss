@@ -1,9 +1,11 @@
 .discountWrap {
   position: relative;
+  margin: 0 auto;
+  width: fit-content;
 }
 .discountSurprise {
   position: absolute;
-  top: 27%;
+  top: 17%;
   left: 5%;
   z-index: 1;
   background: #de7b11;
@@ -12,7 +14,7 @@
 }
 .discountText {
   position: absolute;
-  top: 26%;
+  top: 17%;
   left: 15%;
   z-index: 0;
   align-items: center;
@@ -33,7 +35,7 @@
 .discountPrice {
   z-index: 1;
   position: absolute;
-  top: 13%;
+  top: 8%;
   left: 52%;
   font-weight: 500;
   font-size: 24px;
@@ -43,7 +45,7 @@
   padding: 15px 18px;
 }
 .orderButton {
-  margin: 292px 20px 12px;
+  margin: 121% auto 12px;
   color: #ffffff;
   background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
   padding: 12px 113px;
@@ -54,6 +56,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .discountWrap {
+    margin-bottom: 191px;
+    width: 100%;
+  }
   .discountSurprise {
     padding: 14px;
     top: -47px;
@@ -61,6 +67,9 @@
     border-radius: 50px;
   }
   .discountText {
+    top: -50%;
+    left: 4%;
+    width: fit-content;
     padding: 21px 28px 21px 69px;
     font-size: 34px;
     span {
@@ -70,12 +79,17 @@
   .discountPrice {
     font-size: 48px;
     position: absolute;
-    top: 31px;
-    left: 292px;
+    top: 31%;
+    left: 16%;
     border-radius: 0;
     background: none;
   }
   .orderButton {
+    padding: 0;
+    border-radius: 40px;
+    width: 253px;
+    height: 77px;
+    font-size: 34px;
     margin: 34px 0 0 53px;
   }
 }
