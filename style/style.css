@@ -514,15 +514,15 @@ h1 {
     height: auto;
   }
   .openBoxWrap {
-    flex-direction: row;
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 35%;
   }
   .openBoxTextLeft {
     top: 21%;
-    left: 9%;
+    left: -45%;
     font-size: 40px;
-  }
-  .openBoxItem {
-    margin-left: 28%;
   }
   .openBoxItem img {
     width: auto;
@@ -531,7 +531,7 @@ h1 {
   .openBoxTextRight {
     position: absolute;
     top: 80%;
-    left: 57%;
+    left: 69%;
     font-size: 36px;
     margin-left: 0;
   }
@@ -611,10 +611,6 @@ h1 {
   z-index: 0;
 }
 
-.perfectSurpriseWrap {
-  margin-top: 85px;
-}
-
 .boobleHalykItem {
   z-index: 2;
   position: absolute;
@@ -633,7 +629,7 @@ h1 {
 .perfectSurpriseItem {
   z-index: 1;
   position: relative;
-  margin: 0 auto;
+  margin: 75px auto 0;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -646,7 +642,7 @@ h1 {
 .perfectCookie {
   z-index: 2;
   position: absolute;
-  top: 85%;
+  top: 83%;
   left: 52%;
 }
 
@@ -657,7 +653,7 @@ h1 {
 
 .bacgroundEllipse {
   position: absolute;
-  top: 76%;
+  top: 74%;
   left: 0;
   z-index: 0;
 }
@@ -724,14 +720,14 @@ h1 {
     height: auto;
   }
   .perfectCookie {
-    top: 61%;
+    top: 67%;
     left: 61%;
   }
   .perfectCookie img {
     width: auto;
   }
   .bacgroundEllipse {
-    top: 21%;
+    top: 27%;
     left: 11%;
   }
 }
@@ -782,7 +778,7 @@ h1 {
 }
 
 .recipe {
-  background-image: url("../img/bacgroundKcal.png");
+  background-image: url("../img/bacgroundKcal.svg");
   background-size: cover;
 }
 
@@ -819,15 +815,13 @@ h1 {
 }
 
 .plateWrap {
-  background-image: url("../img/backgroundLastMobile.png");
+  background-image: url("../img/backgroundLastMobile.svg");
   background-size: cover;
   position: relative;
 }
 
-.plate {
-  padding-top: 50px;
-  background-image: url("../img/plateMobile.png");
-  background-size: cover;
+.plateImg {
+  margin-top: 40px;
   width: 391px;
   height: 267px;
 }
@@ -838,8 +832,8 @@ h1 {
 
 .kcal {
   position: absolute;
-  top: 11%;
-  left: 22%;
+  top: 18%;
+  left: 24%;
   font-weight: 600;
   font-size: 28px;
   background: linear-gradient(183.04deg, #ffb664 -4.26%, #ca6900 127.44%);
@@ -928,7 +922,7 @@ h1 {
     font-size: 32px;
   }
   .recipe {
-    background-image: url("../img/backgroundLastDesctop.png");
+    background-image: url("../img/backgroundLastDesctop.svg");
   }
   .recipeMainText {
     width: 36%;
@@ -949,10 +943,12 @@ h1 {
     background-image: none;
   }
   .plate {
-    background-image: url("../img/plateDesctop.png");
-    height: 800px;
-    width: 73%;
     margin: -22% 0 0 27%;
+  }
+  .plateImg {
+    margin-top: 0;
+    height: auto;
+    width: auto;
   }
   .vectorKcal {
     display: block;

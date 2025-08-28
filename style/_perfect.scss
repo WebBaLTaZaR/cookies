@@ -52,9 +52,7 @@
   left: 24%;
   z-index: 0;
 }
-.perfectSurpriseWrap {
-  margin-top: 85px;
-}
+
 .boobleHalykItem {
   z-index: 2;
   position: absolute;
@@ -71,7 +69,7 @@
 .perfectSurpriseItem {
   z-index: 1;
   position: relative;
-  margin: 0 auto;
+  margin: 75px auto 0;
   width: fit-content;
 }
 .perfectSurpriseItem img {
@@ -81,7 +79,7 @@
 .perfectCookie {
   z-index: 2;
   position: absolute;
-  top: 85%;
+  top: 83%;
   left: 52%;
 }
 .perfectCookie img {
@@ -90,7 +88,7 @@
 }
 .bacgroundEllipse {
   position: absolute;
-  top: 76%;
+  top: 74%;
   left: 0;
   z-index: 0;
 }
@@ -155,14 +153,14 @@
     height: auto;
   }
   .perfectCookie {
-    top: 61%;
+    top: 67%;
     left: 61%;
   }
   .perfectCookie img {
     width: auto;
   }
   .bacgroundEllipse {
-    top: 21%;
+    top: 27%;
     left: 11%;
   }
 }

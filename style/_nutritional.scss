@@ -38,7 +38,7 @@
   font-size: 18px;
 }
 .recipe {
-  background-image: url("../img/bacgroundKcal.png");
+  background-image: url("../img/bacgroundKcal.svg");
   background-size: cover;
 }
 .recipeMainText {
@@ -69,14 +69,12 @@
   color: #d26d00;
 }
 .plateWrap {
-  background-image: url("../img/backgroundLastMobile.png");
+  background-image: url("../img/backgroundLastMobile.svg");
   background-size: cover;
   position: relative;
 }
-.plate {
-  padding-top: 50px;
-  background-image: url("../img/plateMobile.png");
-  background-size: cover;
+.plateImg {
+  margin-top: 40px;
   width: 391px;
   height: 267px;
 }
@@ -85,9 +83,8 @@
 }
 .kcal {
   position: absolute;
-  top: 11%;
-  left: 22%;
-
+  top: 18%;
+  left: 24%;
   font-weight: 600;
   font-size: 28px;
   background: linear-gradient(183.04deg, #ffb664 -4.26%, #ca6900 127.44%);
@@ -167,7 +164,7 @@
     font-size: 32px;
   }
   .recipe {
-    background-image: url("../img/backgroundLastDesctop.png");
+    background-image: url("../img/backgroundLastDesctop.svg");
   }
   .recipeMainText {
     width: 36%;
@@ -188,10 +185,12 @@
     background-image: none;
   }
   .plate {
-    background-image: url("../img/plateDesctop.png");
-    height: 800px;
-    width: 73%;
     margin: -22% 0 0 27%;
+  }
+  .plateImg {
+    margin-top: 0;
+    height: auto;
+    width: auto;
   }
   .vectorKcal {
     display: block;
