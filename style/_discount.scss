@@ -19,7 +19,7 @@
   z-index: 0;
   align-items: center;
   padding: 12px 28px;
-  width: 65%;
+  width: 66%;
   background: linear-gradient(90deg, #3a3a3a 0%, #5b5b5b 100%);
   border-radius: 40px;
   font-weight: 400;
@@ -52,7 +52,7 @@
   border-radius: 30px;
   font-weight: 500;
   font-size: 28px;
-  line-height: 100%;
+  display: block;
 }
 
 @media screen and (min-width: 1200px) {
@@ -85,6 +85,9 @@
     background: none;
   }
   .orderButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     border-radius: 40px;
     width: 253px;

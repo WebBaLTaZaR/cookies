@@ -62,9 +62,13 @@
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
-  padding: 42px 10px;
-  border-radius: 60px;
-  width: fit-content;
+  // padding: 42px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 122px;
+  height: 122px;
 }
 .perfectSurpriseItem {
   z-index: 1;
@@ -137,9 +141,9 @@
     display: none;
   }
   .boobleHalykItem {
-    padding: 90px 20px;
     font-size: 36px;
-    border-radius: 120px;
+    width: 268px;
+    height: 268px;
     top: 68%;
     left: 23%;
   }

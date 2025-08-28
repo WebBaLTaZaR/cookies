@@ -20,6 +20,7 @@
 .unionDiffOpenBoxWrap {
   background-image: url("../img/Bacground3blockMobile.svg");
   background-size: cover;
+  min-height: 702px;
 }
 .diffConteinersWrap {
   display: flex;
@@ -77,13 +78,14 @@
   color: #d26d00;
 }
 .orderForOzon {
+  display: block;
   font-weight: 500;
   font-size: 28px;
   line-height: 100%;
   color: #ffffff;
   background: linear-gradient(90.03deg, #de7b11 0.02%, #ffa339 109.46%);
   padding: 12px 50px;
-  margin: 14px 20px 30px;
+  margin: 36px 20px 30px;
   border-radius: 60px;
 }
 @media screen and (min-width: 1200px) {

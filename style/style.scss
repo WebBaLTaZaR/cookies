@@ -3,6 +3,22 @@
 .conteiner {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
+  height: auto;
+  overflow: scroll;
+}
+.contactsWrap {
+  position: fixed;
+  bottom: 10%;
+  right: 7%;
+  z-index: 10;
+}
+@media screen and (min-width: 1200px) {
+  .iconWhatsapp {
+    display: block;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 17px;
+  }
 }
 @import "caramelCookies.scss";
 @import "discount.scss";

@@ -40,9 +40,7 @@ h1 {
   font-weight: 400;
   font-size: 18px;
 }
-.contactsWrap {
-  display: none;
-}
+
 @media screen and (min-width: 1200px) {
   .caramelCookiesWrap {
     background-image: url("../img/cookieBoxBacgroundDesctopBlur.webp");
@@ -75,29 +73,5 @@ h1 {
     background: transparent;
     padding-top: 28px;
     font-size: 40px;
-  }
-  .orderButton {
-    padding: 18px 50px;
-    font-size: 34px;
-    border-radius: 50px;
-    align-self: start;
-  }
-
-  .iconWhatsapp {
-    background-color: #fff;
-    border-radius: 50px;
-    padding: 17px;
-  }
-  .iconTelephone {
-    background-color: #fff;
-    border-radius: 50px;
-    padding: 17px;
-  }
-  .contactsWrap {
-    display: flex;
-    gap: 15px;
-    position: absolute;
-    top: 88%;
-    left: 82%;
   }
 }
