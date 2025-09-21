@@ -86,7 +86,12 @@ h6 {
   font-weight: 400;
 }
 
-/*--------------------*/
+button:focus,
+a:focus {
+  outline: 4px solid black;
+  outline-offset: 3px;
+}
+
 .conteiner {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
@@ -1007,7 +1012,7 @@ h1 {
   }
   .backgroundBox {
     top: -11%;
-    left: 59%;
+    left: 1076px;
   }
   .backgroundBox img {
     width: auto;
