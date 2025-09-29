@@ -482,6 +482,14 @@ h1 {
   border-radius: 60px;
 }
 
+@media (min-width: 576px) {
+  .orderForOzon {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    margin: 36px auto 0;
+  }
+}
 @media screen and (min-width: 1200px) {
   .safeConteinerWrap {
     margin-top: 45px;
@@ -541,9 +549,6 @@ h1 {
     font-size: 34px;
     padding: 18px 50px;
     margin: 36px auto 46px;
-    width: -moz-fit-content;
-    width: fit-content;
-    display: block;
   }
 }
 .perfectWrap {

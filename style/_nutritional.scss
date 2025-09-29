@@ -139,6 +139,9 @@
   width: 200px;
   height: auto;
 }
+@media (min-width: 576px) { }
+@media (min-width: 768px) { }
+@media (min-width: 992px) { }
 @media screen and (min-width: 1200px) {
   .nutritionalValue {
     margin-top: 90px;
