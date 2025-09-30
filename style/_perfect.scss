@@ -101,10 +101,31 @@
   height: auto;
 }
 @media (min-width: 576px) {
+  .bacgroundEllipse {
+    top: 66%;
+  }
+  .connectLine {
+    left: 33%;
+  }
+  .boobleHalykItem {
+    left: 20%;
+  }
 }
 @media (min-width: 768px) {
+   .bacgroundEllipse {
+    top: 54%;
+  }
+  .connectLine {
+    left: 37%;
+  }
 }
 @media (min-width: 992px) {
+  .bacgroundEllipse {
+    top: 40%;
+  }
+  .boobleHalykItem {
+    left: 33%;
+  }
 }
 @media screen and (min-width: 1200px) {
   .perfectWrap {

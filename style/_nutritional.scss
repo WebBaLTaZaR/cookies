@@ -123,7 +123,7 @@
   gap: 25px;
   padding-bottom: 50px;
 }
-.messengers img{
+.messengers img {
   width: 27px;
   height: auto;
 }
@@ -139,9 +139,50 @@
   width: 200px;
   height: auto;
 }
-@media (min-width: 576px) { }
-@media (min-width: 768px) { }
-@media (min-width: 992px) { }
+@media (min-width: 576px) {
+  .plateImg {
+    margin-top: 40px;
+    width: 577px;
+    height: auto;
+  }
+  .kcal {
+    top: 23%;
+    left: 27%;
+  }
+  .backgroundBox {
+    left: 64%;
+  }
+}
+@media (min-width: 768px) {
+  .plateImg {
+    width: 767px;
+  }
+  .kcal {
+    top: 28%;
+    left: 29%;
+  }
+  .backgroundBox {
+    left: 73%;
+  }
+}
+@media (min-width: 992px) {
+  .plateImg {
+    width: 990px;
+  }
+  .kcal {
+    top: 33%;
+    left: 31%;
+  }
+  .backgroundBox {
+    left: 79%;
+  }
+  .recipeDescription {
+    font-size: 20px;
+  }
+  .recipeDescriptionContinue {
+    font-size: 20px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .nutritionalValue {
     margin-top: 90px;

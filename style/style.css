@@ -32,6 +32,7 @@ aside {
 
 html,
 body {
+  overflow-x: hidden;
   height: 100%;
   width: 100%;
   line-height: 1;
@@ -120,6 +121,7 @@ a:focus {
   background-size: cover;
   color: #ffffff;
   min-height: 625px;
+  background-position: 10% 90%;
 }
 
 .caramelCookiesLimit {
@@ -162,6 +164,27 @@ h1 {
   font-size: 18px;
 }
 
+@media (min-width: 992px) {
+  .caramelCookiesWrap {
+    background-image: url("../img/cookieBoxBacgroundDesctopBlur.webp");
+  }
+  .mainTextWrap {
+    margin-top: 20px;
+    padding-left: 75px;
+    align-items: start;
+  }
+  .secondMain {
+    margin-left: -26px;
+    border-radius: 50px;
+    padding: 5px 25px 10px;
+  }
+  .mainDescription {
+    border-radius: 0;
+    background: transparent;
+    padding-top: 28px;
+    font-size: 23px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .caramelCookiesWrap {
     background-image: url("../img/cookieBoxBacgroundDesctopBlur.webp");
@@ -258,6 +281,14 @@ h1 {
   display: block;
 }
 
+@media (min-width: 992px) {
+  .discountWrap {
+    margin: 0 20px 0;
+  }
+  .orderButton {
+    margin: 110% auto 12px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .discountWrap {
     margin-bottom: 191px;
@@ -352,6 +383,39 @@ h1 {
   margin-bottom: 252px;
 }
 
+@media (min-width: 768px) {
+  .ozonLink {
+    display: none;
+  }
+  .souvenirOzonWrap {
+    background-image: url("../img/souvenirDesctop.webp");
+    background-size: cover;
+    min-height: 362px;
+  }
+  .souvenirDescriptiontext {
+    width: 56%;
+  }
+}
+@media (min-width: 992px) {
+  .souvenirOzonWrap {
+    display: none;
+  }
+  .souvenirDescriptionWrap {
+    background-image: url("../img/souvenirDesctop.webp");
+    background-size: cover;
+    min-height: 557px;
+    margin-top: 58px;
+  }
+  .souvenirMainText {
+    font-size: 30px;
+  }
+  .souvenirSecondText {
+    font-size: 23px;
+  }
+  .souvenirDescriptiontext {
+    font-size: 19px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .souvenirMainWrap {
     margin: 88px 100px 0;
@@ -669,6 +733,33 @@ h1 {
   height: auto;
 }
 
+@media (min-width: 576px) {
+  .bacgroundEllipse {
+    top: 66%;
+  }
+  .connectLine {
+    left: 33%;
+  }
+  .boobleHalykItem {
+    left: 20%;
+  }
+}
+@media (min-width: 768px) {
+  .bacgroundEllipse {
+    top: 54%;
+  }
+  .connectLine {
+    left: 37%;
+  }
+}
+@media (min-width: 992px) {
+  .bacgroundEllipse {
+    top: 40%;
+  }
+  .boobleHalykItem {
+    left: 33%;
+  }
+}
 @media screen and (min-width: 1200px) {
   .perfectWrap {
     min-height: 1076px;
@@ -904,6 +995,50 @@ h1 {
   height: auto;
 }
 
+@media (min-width: 576px) {
+  .plateImg {
+    margin-top: 40px;
+    width: 577px;
+    height: auto;
+  }
+  .kcal {
+    top: 23%;
+    left: 27%;
+  }
+  .backgroundBox {
+    left: 64%;
+  }
+}
+@media (min-width: 768px) {
+  .plateImg {
+    width: 767px;
+  }
+  .kcal {
+    top: 28%;
+    left: 29%;
+  }
+  .backgroundBox {
+    left: 73%;
+  }
+}
+@media (min-width: 992px) {
+  .plateImg {
+    width: 990px;
+  }
+  .kcal {
+    top: 33%;
+    left: 31%;
+  }
+  .backgroundBox {
+    left: 79%;
+  }
+  .recipeDescription {
+    font-size: 20px;
+  }
+  .recipeDescriptionContinue {
+    font-size: 20px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .nutritionalValue {
     margin-top: 90px;

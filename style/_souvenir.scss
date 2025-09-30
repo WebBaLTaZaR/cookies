@@ -46,8 +46,37 @@
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
+  .ozonLink {
+    display: none;
+  }
+  .souvenirOzonWrap {
+    background-image: url("../img/souvenirDesctop.webp");
+    background-size: cover;
+    min-height: 362px;
+  }
+  .souvenirDescriptiontext {
+    width: 56%;
+  }
 }
 @media (min-width: 992px) {
+  .souvenirOzonWrap {
+    display: none;
+  }
+  .souvenirDescriptionWrap {
+    background-image: url("../img/souvenirDesctop.webp");
+    background-size: cover;
+    min-height: 557px;
+    margin-top: 58px;
+  }
+  .souvenirMainText {
+    font-size: 30px;
+  }
+  .souvenirSecondText {
+    font-size: 23px;
+  }
+  .souvenirDescriptiontext {
+    font-size: 19px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .souvenirMainWrap {
