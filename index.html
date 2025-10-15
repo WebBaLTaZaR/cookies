@@ -15,6 +15,25 @@
 
       gtag("config", "AW-17611227972");
     </script>
+    <!-- Event snippet for Просмотр страницы conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-17611227972/oSY1CO2Lj6QbEMSG2M1B",
+          value: 1.0,
+          currency: "USD",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
@@ -45,6 +64,7 @@
               target="_blank"
               class="orderButton"
               aria-label="Купить печеньки на Озоне"
+              onclick='return gtag_report_conversion("https://ozon.ru/t/lQj6lc0")'
               >Заказать</a
             >
           </div>
@@ -75,6 +95,7 @@
             target="_blank"
             class="ozonLink"
             aria-label="Купить печеньки на Озоне"
+            onclick='return gtag_report_conversion("https://ozon.ru/t/lQj6lc0")'
           >
             Заказать<br />
             на OZON
@@ -122,6 +143,7 @@
             target="_blank"
             class="orderForOzon"
             aria-label="Купить печеньки на Озоне"
+            onclick='return gtag_report_conversion("https://ozon.ru/t/lQj6lc0")'
             >Заказать на OZON</a
           >
         </div>
@@ -152,6 +174,7 @@
           target="_blank"
           class="boobleHalykItem"
           aria-label="Купить печеньки на Халык Маркете"
+          onclick='return gtag_report_conversion("https://halykmarket.kz/astana/category/pechenyeikrekery/shkatulka-suvenirnaya-baisem-style1-belyy")'
         >
           Заказать на <br />
           Halyk Market
@@ -232,6 +255,7 @@
                   target="_blank"
                   class="insta"
                   aria-label="Перейти на инстаграмм для покупки печенек"
+                  onclick='return gtag_report_conversion("https://www.instagram.com/baisem_astana?igsh=Z3dvaHlmeWZjbnRt")'
                 >
                   <img
                     src="img/instaIcon.svg"
@@ -269,6 +293,7 @@
                 target="_blank"
                 class="boobleAtOZON"
                 aria-label="Купить печеньки на Озоне"
+                onclick='return gtag_report_conversion("https://ozon.ru/t/lQj6lc0")'
                 >Заказать <br />на OZON</a
               >
               <div class="backgroundBox">
